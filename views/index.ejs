@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Candy!</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+    <script src="javascripts/main.js"></script>
+  </head>
+  <body>
+    <h1>I Really Like Sugar.</h1>
+    <ul id="candies">
+    </ul>
+
+    <form action="/candies" method="post">
+      <input type="text" id="candyName" name="name">
+      <input type="submit" id="sendCandy" value="Yum!">
+    </form>
+  </body>
+</html>
